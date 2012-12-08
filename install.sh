@@ -15,6 +15,6 @@ for name in symlink/*; do
     ln -s $dotfiles_path/symlink/$name $HOME/.$name
   fi
 done
-cd -
+cd - >> /dev/null
 
 echo === Done

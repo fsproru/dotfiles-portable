@@ -19,12 +19,6 @@ done
 
 current_dir=$(dirname $0)
 dotfiles_path=$PWD/$current_dir
-vimfiles_path=$dotfiles_path/vimfiles
-
-echo "=== Uninstalling vimfiles"
-cd $vimfiles_path
-echo yes | ./uninstall.sh
-cd -
 
 echo "=== Deleting dotfiles from $HOME"
 cd $dotfiles_path
@@ -37,6 +31,6 @@ for name in symlink/*; do
     echo Deleted $target
   fi
 done
-cd -
+cd - >> /dev/null
 
 echo === Done
