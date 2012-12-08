@@ -2,12 +2,6 @@
 
 current_dir=$(dirname $0)
 dotfiles_path=$PWD/$current_dir
-vimfiles_path=$dotfiles_path/vimfiles
-
-echo "=== Installing vimfiles"
-cd $vimfiles_path
-./install.sh
-cd -
 
 echo "=== Creating symlinks for dotfiles"
 cd $dotfiles_path
