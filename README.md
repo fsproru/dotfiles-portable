@@ -24,5 +24,5 @@ cd ~/.dotfiles
  - https://github.com/thoughtbot/dotfiles
  - https://github.com/Casecommons/vim-config
 
-LICENSED UNDER THE MIT LICENSE (MIT)
-Copyright (c) 2013 Alexander Tamoukin
+
+Copyright (c) 2013 Alexander Tamoykin. Licensed under the [MIT LICENSE](https://github.com/fsproru/dotfiles-portable/blob/master/LICENSE)
